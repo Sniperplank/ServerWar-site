@@ -5,7 +5,7 @@ function Help() {
     return (
         <div className='flex bg-neutral-900 justify-center items-center h-screen'>
             <div className='absolute w-1/3 h-7  bg-slate-400 [box-shadow:_-200px_0_100px_rgb(225_29_72_/_80%),_200px_0_100px_rgb(79_70_229_/_80%)]'></div>
-            <div className='container bg-zinc-800 w-1/3 h-fit rounded-xl z-10'>
+            <div className='container bg-zinc-800 md:w-1/3 h-fit rounded-xl z-10 sm:w-10/12'>
                 <div className='bg-fuchsia-900 w-full h-20 rounded-t-xl pt-7 pl-7'>
                     <div className='bg-zinc-800 w-24 h-24 rounded-full p-2'>
                         <img className='rounded-full w-20 h-20' src={pfp} />

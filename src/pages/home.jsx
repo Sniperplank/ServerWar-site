@@ -3,7 +3,6 @@ import discordIcon from '../assets/discord-mark-white.svg'
 import '../index.css'
 
 function Home() {
-    //bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-indigo-600 [text-shadow:_0_0_1000px_rgb(255_0_0_/_100%)]
     return (
         <div className='flex bg-neutral-900 h-screen justify-center items-center'>
             <div className="w-1/2">
