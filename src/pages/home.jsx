@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import discordIcon from '../assets/discord-mark-white.svg'
 import '../index.css'
 
@@ -23,11 +24,11 @@ function Home() {
                             <span className='text-2xl'>Invite</span>
                         </div>
                     </a>
-                    <a className='flex justify-center items-center w-44 m-11 bg-rose-600 h-20 rounded-xl font-bold hover:cursor-pointer'>
+                    <Link to='/commands' className='flex justify-center items-center w-44 m-11 bg-rose-600 h-20 rounded-xl font-bold hover:cursor-pointer'>
                         <div className='flex justify-evenly'>
                             <span className='text-2xl text-gray-800'>Learn More</span>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
