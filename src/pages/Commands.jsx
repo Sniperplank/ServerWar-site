@@ -3,7 +3,8 @@ import React from 'react'
 function Commands() {
     return (
         <div className='flex bg-neutral-900 justify-center'>
-            <div className='m-28'>
+            <div className='absolute top-1/2 w-1/2 h-7  bg-slate-400 [box-shadow:_-300px_0_100px_rgb(79_70_229_/_80%),_300px_0_100px_rgb(225_29_72_/_80%)]'></div>
+            <div className='m-28 z-10'>
                 <table className="table-fixed bg-gray-900 rounded-lg">
                     <thead className='border-b-2 border-gray-600'>
                         <tr>
