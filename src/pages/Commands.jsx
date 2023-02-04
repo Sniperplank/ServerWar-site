@@ -2,103 +2,103 @@ import React from 'react'
 
 function Commands() {
     return (
-        <div className='flex bg-neutral-900 justify-center items-center h-screen'>
-            <div>
-                <table className="table-fixed">
-                    <thead>
+        <div className='flex bg-neutral-900 justify-center'>
+            <div className='m-28'>
+                <table className="table-fixed bg-gray-900 rounded-lg">
+                    <thead className='border-b-2 border-gray-600'>
                         <tr>
-                            <th className='w-1/4'>Name</th>
+                            <th className='w-1/4 p-5'>Name</th>
                             <th className='w-1/4'>Description</th>
                             <th className='w-1/4'>Options</th>
                             <th className='w-1/4'>Cooldown</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>/help</td>
-                            <td>Help on how to participate in the war</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/help</td>
+                            <td className='p-5'>Help on how to participate in the war</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/commands</td>
-                            <td>List all available commands</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/commands</td>
+                            <td className='p-5'>List all available commands</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/joinwar</td>
-                            <td>Use this command to participate in the war</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/joinwar</td>
+                            <td className='p-5'>Use this command to participate in the war</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/profile</td>
-                            <td>Check your profile</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/profile</td>
+                            <td className='p-5'>Check your profile</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/health</td>
-                            <td>Show how much health you have</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/health</td>
+                            <td className='p-5'>Show how much health you have</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/shield</td>
-                            <td>Show how much shield you have</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/shield</td>
+                            <td className='p-5'>Show how much shield you have</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/money</td>
-                            <td>Show how much money you have</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/money</td>
+                            <td className='p-5'>Show how much money you have</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
-                        <tr>
-                            <td>/attack</td>
-                            <td>Attack another player</td>
-                            <td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/attack</td>
+                            <td className='p-5'>Attack another player</td>
+                            <td className='p-5'>
                                 <ol>
                                     <li>Target: mention of the player you want to attack</li>
                                 </ol>
                             </td>
-                            <td>10s</td>
+                            <td className='p-5'>10s</td>
                         </tr>
-                        <tr>
-                            <td>/buy</td>
-                            <td>Buy items to help in the war</td>
-                            <td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/buy</td>
+                            <td className='p-5'>Buy items to help in the war</td>
+                            <td className='p-5'>
                                 <ol>
                                     <li>Health: sets player health to 100</li>
                                     <li>Shield: sets player shield to 100</li>
                                 </ol>
                             </td>
-                            <td>60s</td>
+                            <td className='p-5'>60s</td>
                         </tr>
-                        <tr>
-                            <td>/beg</td>
-                            <td>Beg for money. Win anything from $1 to $500</td>
-                            <td>None</td>
-                            <td>3600s</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/beg</td>
+                            <td className='p-5'>Beg for money. Win anything from $1 to $500</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>3600s</td>
                         </tr>
-                        <tr>
-                            <td>/give</td>
-                            <td>Give another player money</td>
-                            <td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/give</td>
+                            <td className='p-5'>Give another player money</td>
+                            <td className='p-5'>
                                 <ol>
-                                    <li>Plauer: mention of the player you want to give money</li>
+                                    <li>Player: mention of the player you want to give money</li>
                                     <li>Amount: amount of money to give the player</li>
                                 </ol>
                             </td>
-                            <td>60s</td>
+                            <td className='p-5'>60s</td>
                         </tr>
-                        <tr>
-                            <td>/quitwar</td>
-                            <td>Use this command to quit the war and delete your profile</td>
-                            <td>None</td>
-                            <td>None</td>
+                        <tr className='border-b bg-gray-800 border-gray-700'>
+                            <td className='p-5'>/quitwar</td>
+                            <td className='p-5'>Use this command to quit the war and delete your profile</td>
+                            <td className='p-5'>None</td>
+                            <td className='p-5'>None</td>
                         </tr>
                     </tbody>
                 </table>
