@@ -4,15 +4,15 @@ import '../index.css'
 
 function Home() {
     return (
-        <div className='flex bg-neutral-900 h-screen justify-center items-center'>
-            <div className="w-1/2">
-                <div className="text-9xl font-bold text-center ">
+        <div className='md:flex bg-neutral-900 h-screen md:justify-center md:items-center xs:block'>
+            <div className="md:w-1/2 xs:w-full p-20">
+                <div className="md:text-9xl font-bold text-center xs:text-5xl">
                     <span className='bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-indigo-600 [text-shadow:_-100px_0_50px_rgb(225_29_72_/_50%),_100px_0_50px_rgb(79_70_229_/_50%)]'>
                         ServerWar
                     </span>
                 </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2 xs:w-full">
                 <p className="text-2xl text-gray-400 text-center font-bold my-5 mx-36">
                     ServerWar is a discord bot that can be used by members of a server to play a text-based game simulating a war
                 </p>

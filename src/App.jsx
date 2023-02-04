@@ -7,7 +7,7 @@ import Home from './pages/Home'
 function App() {
   return (
     <div>
-      <nav className='flex absolute left-0 right-0 justify-center items-center h-14 p-8'>
+      <nav className='flex absolute left-0 right-0 justify-center items-center h-14 p-8 z-50'>
         <Link className='px-3 py-2 text-xl text-gray-300 font-medium mx-8 hover:border-b-4 border-rose-600 hover:text-rose-600' to='/'>Home</Link>
         <Link className='px-3 py-2 text-xl text-gray-300 font-medium mx-8 hover:border-b-4 border-rose-600 hover:text-rose-600' to='/commands'>Commands</Link>
         <Link className='px-3 py-2 text-xl text-gray-300 font-medium mx-8 hover:border-b-4 border-rose-600 hover:text-rose-600' to='/help'>Help</Link>
